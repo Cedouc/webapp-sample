@@ -1,6 +1,6 @@
 <%@page import="sample.Constantes"%>
 <html>
-<body>
+<body style="background:blue">
 	Hello <%= Constantes.WHO %> !
 	<pre>
 		Valeur de context : <%= pageContext.getServletContext().getInitParameter("webapp.context.value") %>
